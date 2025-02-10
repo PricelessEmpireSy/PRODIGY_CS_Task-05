@@ -171,4 +171,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Connect with Me
 I'm eager to apply my skills in a professional setting and contribute to innovative cybersecurity solutions. If you have any opportunities or would like to collaborate, feel free to reach out!
-Finally, Task 5 done, keep on keeping on, you sure can too, I am rooting for you!
+Finally, Task 5 done, let's keep on keeping on, you sure can too, I am rooting for you!
