@@ -24,6 +24,7 @@ This project is a network packet analyzer tool that captures and analyzes networ
 
 - **Python**: Download and install Python from [python.org](https://www.python.org/).
 - **scapy**: Install the `scapy` library using pip.
+- **Npcap**: Install Npcap from [Npcap](https://nmap.org/npcap/).
 
 ### Steps
 
@@ -32,7 +33,9 @@ This project is a network packet analyzer tool that captures and analyzes networ
    ```bash
    git clone <repository-url>
 
-Navigate to the Project Directory:
+## Navigate to the Project Directory
+
+Example, if your directory is network_packet_analyzer, this is how to navigate/change directory below
 
 bash
 cd network_packet_analyzer
@@ -55,7 +58,11 @@ Install Required Packages:
 bash
 pip install scapy
 How to Use
-Run the Program:
+Run the Program with Administrator Privileges:
+
+On Windows, open Command Prompt or PowerShell as an administrator.
+
+Navigate to your project directory and run the script:
 
 bash
 python packet_analyzer.py
@@ -63,7 +70,7 @@ Capture Packets:
 
 The program will start capturing network packets and display the relevant information on the screen.
 
-Stopping the Packet Capture:
+## Stopping the Packet Capture
 
 To stop the packet capture, manually terminate the script by closing the terminal or using a keyboard interrupt (Ctrl + C).
 
@@ -86,10 +93,10 @@ Step 2: Create the Python Script
 Create a New Python File: In your project folder, create a new file named packet_analyzer.py.
 
 Step 3: Write the Python Code
-Here's a basic example of how to implement the network packet analyzer using scapy:
+Here’s a basic example of how to implement the network packet analyzer using scapy:
 
 python
-from scapy.all import sniff
+from scapy.all import *
 
 def packet_callback(packet):
     if packet.haslayer(IP):
@@ -101,7 +108,7 @@ def main():
 
 if **name** == "**main**":
     main()
-Step 4: Run the Program
+Step 4: Run the Program with Administrator Privileges
 Open the Integrated Terminal: Go to View > Terminal in VSCode.
 
 Navigate to Your Project Directory: If you’re not already in your project directory, use the cd command to navigate to it.
@@ -110,6 +117,7 @@ Run the Python Script: Execute the script by typing the following command in the
 
 bash
 python packet_analyzer.py
+
 Step 5: Ethical Considerations
 Authorization: Ensure you have proper authorization and permissions before using the packet analyzer. It is crucial to respect privacy and legal guidelines.
 
@@ -126,7 +134,7 @@ Commit Your Changes: Commit the changes with a meaningful commit message:
 
 bash
 git commit -m "Initial commit with Network Packet Analyzer"
-Link to GitHub Repository: Add the remote GitHub repository. Replace <[our-repository-url] with the URL of the repository you created on GitHub:
+Link to GitHub Repository: Add the remote GitHub repository. Replace [your-repository-url] with the URL of the repository you created on GitHub:
 
 bash
 git remote add origin [your-repository-url]
@@ -135,23 +143,32 @@ Push to GitHub: Push your local changes to the GitHub repository:
 bash
 git push -u origin master
 
-**Learning Outcomes**
+## Learning Outcomes
+
 Network Packet Analysis: Understanding how to capture and analyze network packets using Python.
 
 Python Programming: Enhancing skills in Python, including libraries like scapy.
 
-Version Control: Using Git and GitHub for version control and collaboration.
+## Version Control
 
-Documentation: Recognizing the importance of clear and detailed project documentation.
+ Using Git and GitHub for version control and collaboration.
 
-Ethical Considerations: Understanding the ethical implications and legal considerations of using packet analyzers.
+## Documentation
 
-**Contribution**
+Recognizing the importance of clear and detailed project documentation.
+
+## Ethical Considerations
+
+Understanding the ethical implications and legal considerations of using packet analyzers.
+
+## Contribution
+
 Feel free to fork this repository, submit issues, and send pull requests. Contributions are welcome!
 
-**License**
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Connect with Me**
+Connect with Me
 I'm eager to apply my skills in a professional setting and contribute to innovative cybersecurity solutions. If you have any opportunities or would like to collaborate, feel free to reach out!
-Happy coding, enjoy. Still rooting for y'all.
+Finally, Task 5 done, keep on keeping on, you sure can too, I am rooting for you!
